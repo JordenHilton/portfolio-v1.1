@@ -12,21 +12,18 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-        <Fade bottom duration={1000} delay={800} distance="30px">
-          <div className="contact-wrapper">
-            <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
-            </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
-          </div>
-        </Fade>
+          <form className = "form" name = "contact" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post">
+
+      
+            <input type="text" placeholder="name"/>
+            
+            <input type="text" placeholder="Email"/>
+            
+            <textarea type="text" placeholder="Message"></textarea>
+
+            <button type="submit">Submit</button>
+
+          </form>
       </Container>
     </section>
   );
