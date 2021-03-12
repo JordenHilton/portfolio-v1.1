@@ -12,7 +12,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-          <form className = "form" name = "contact" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
+          <form className = "form" name = "contact-form" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
 
       
             <input 
