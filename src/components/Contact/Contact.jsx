@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
+import { Container, Form } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 
@@ -11,10 +11,8 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
+        <Form className = "form" name = "contact-form" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
         <Title title="Contact" />
-          <form className = "form" name = "contact-form" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
-
-      
             <input 
             name="name"
             type="text" 
@@ -28,7 +26,7 @@ const Contact = () => {
 
             <button type="submit">Submit</button>
 
-          </form>
+          </Form>
       </Container>
     </section>
   );
