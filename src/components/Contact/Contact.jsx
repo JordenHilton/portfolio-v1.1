@@ -11,7 +11,12 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Form className = "form" name = "contact-form" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
+        <Form 
+        className = "form" 
+        name = "contact-form" 
+        data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" 
+        input-type="hidden"
+        onSubmit="submit">
         <Title title="Contact" />
             <input 
             name="name"
