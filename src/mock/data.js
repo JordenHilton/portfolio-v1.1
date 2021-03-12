@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'dogs.jpeg',
-  paragraphOne: 'Front-End Web Developer - Saint Louis, Missouri.',
+  paragraphOne: 'Front-End Web Developer - Saint Louis, Missouri',
   paragraphTwo: 'I began building in late 2019.  Since then I have developed experience using the following tools: HTML, CSS, Bootstrap, SCSS, Javascript, Node.js.  Currently I am learning the React framework',
   paragraphThree: 'When not coding I enjoy spending time with my two puppies.',
   resume: '', // if no resume, the button will not show up
