@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Jorden', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'dogs.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Front-End Web Developer - Saint Louis, Missouri.',
+  paragraphTwo: 'I began building in late 2019.  Since then I have developed experience using the following tools: HTML, CSS, Bootstrap, SCSS, Javascript, Node.js.  Currently I am learning the React framework',
+  paragraphThree: 'When not coding I enjoy spending time with my two puppies.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -29,12 +29,13 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Weather App',
+    info: 'This is a single page weather application.  The users city-search will fetch current weather data from the openweathermap API and return current conditions to the DOM.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jordenhilton.github.io/weatherapp/',
+    repo: 'https://github.com/JordenHilton/weatherapp', // if no repo, the button will not show up
   },
+  
   
 ];
 
@@ -47,7 +48,28 @@ export const contactData = {
 
 // FOOTER DATA
 export const footerData = {
-  networks: [],
+  networks: [
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: '',
+    },
+  ],
 };
 
 // Github start/fork buttons
