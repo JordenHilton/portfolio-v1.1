@@ -12,7 +12,7 @@ const Contact = () => {
     <section id="contact">
       <Container>
         <Title title="Contact" />
-          <form className = "form" name = "contact" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post">
+          <form className = "form" name = "contact" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post" input-type="hidden">
 
       
             <input 
@@ -22,7 +22,7 @@ const Contact = () => {
             
             <input 
             name="email"
-            type="email" placeholder="name@name.com"/>
+            type="email" placeholder="email"/>
             
             <textarea name="message" type="text" placeholder="Message"></textarea>
 
