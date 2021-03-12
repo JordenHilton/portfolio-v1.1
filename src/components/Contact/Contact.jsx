@@ -15,11 +15,16 @@ const Contact = () => {
           <form className = "form" name = "contact" data-netlify = "true" data-netlify-honeypot= "bot-field" method = "post">
 
       
-            <input type="text" placeholder="name"/>
+            <input 
+            name="name"
+            type="text" 
+            placeholder="name"/>
             
-            <input type="email" placeholder="Email"/>
+            <input 
+            name="email"
+            type="email" placeholder="name@name.com"/>
             
-            <textarea type="text" placeholder="Message"></textarea>
+            <textarea name="message" type="text" placeholder="Message"></textarea>
 
             <button type="submit">Submit</button>
 
