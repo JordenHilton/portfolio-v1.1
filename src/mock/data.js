@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'project2.jpg',
+    title: 'Finger Lickin\' Chicken',
+    info: 'This is a single page restaurant home page.  This responsive site showcases the businesses offerings to potential consumers.  This UI is built out using React Components.',
+    info2: '',
+    url: 'https://jordenhilton.github.io/chickenwebsite/',
+    repo: 'https://github.com/JordenHilton/chickenwebsite', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: 'Weather App',
     info: 'This is a single page weather application.  The users city-search will fetch current weather data from the openweathermap API and return current conditions to the DOM.',
