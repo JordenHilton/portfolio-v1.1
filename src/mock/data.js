@@ -32,8 +32,17 @@ export const projectsData = [
     title: 'Finger Lickin\' Chicken',
     info: 'This is a single page restaurant home page.  This responsive site showcases the businesses offerings to potential consumers.  This UI is built out using React Components.',
     info2: '',
-    url: 'https://jordenhilton.github.io/chickenwebsite/',
-    repo: 'https://github.com/JordenHilton/chickenwebsite', // if no repo, the button will not show up
+    url: 'https://jordenhilton.github.io/photography/',
+    repo: 'https://github.com/JordenHilton/photography', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'photography.jpeg',
+    title: 'Photographer Site',
+    info: 'This is a single page Photographers site for showcasing work and displaying contact information',
+    info2: '',
+    url: 'https://jordenhilton.github.io/weatherapp/',
+    repo: 'https://github.com/JordenHilton/weatherapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
