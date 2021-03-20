@@ -37,9 +37,9 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'photography.jpeg',
+    img: 'photography.jpg',
     title: 'Photographer Site',
-    info: 'This is a single page Photographers site for showcasing work and displaying contact information',
+    info: 'This is a single page Photographers site for showcasing work and displaying contact information.  UI is built out in a mobile first design.',
     info2: '',
     url: 'https://jordenhilton.github.io/weatherapp/',
     repo: 'https://github.com/JordenHilton/weatherapp', // if no repo, the button will not show up
