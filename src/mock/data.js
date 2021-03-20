@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Photographer Site',
     info: 'This is a single page Photographers site for showcasing work and displaying contact information.  UI is built out in a mobile first design.',
     info2: '',
-    url: 'https://jordenhilton.github.io/weatherapp/',
+    url: 'https://jordenhilton.github.io/photography/',
     repo: 'https://github.com/JordenHilton/weatherapp', // if no repo, the button will not show up
   },
   {
