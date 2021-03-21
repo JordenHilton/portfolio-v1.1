@@ -28,15 +28,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project2.jpg',
-    title: 'Finger Lickin\' Chicken',
-    info: 'This is a single page restaurant home page.  This responsive site showcases the businesses offerings to potential consumers.  This UI is built out using React Components.',
-    info2: '',
-    url: 'https://jordenhilton.github.io/chickenwebsite/',
-    repo: 'https://github.com/JordenHilton/chickenwebsite', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'photography.jpg',
     title: 'Photographer Site',
     info: 'This is a single page Photographers site for showcasing work and displaying contact information.  UI is built out in a mobile first design.',
@@ -44,6 +35,25 @@ export const projectsData = [
     url: 'https://jordenhilton.github.io/photography/',
     repo: 'https://github.com/JordenHilton/weatherapp', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'lyrical.jpg',
+    title: 'Lyric Word Count & Search',
+    info: 'This SPA stores songs and allows the user to view word stats of each stored song.',
+    info2: '',
+    url: 'https://jordenhilton.github.io/notary/',
+    repo: 'https://github.com/JordenHilton/notary', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project2.jpg',
+    title: 'Finger Lickin\' Chicken',
+    info: 'This is a single page restaurant home page.  This responsive site showcases the businesses offerings to potential consumers.  This UI is built out using React Components.',
+    info2: '',
+    url: 'https://jordenhilton.github.io/chickenwebsite/',
+    repo: 'https://github.com/JordenHilton/chickenwebsite', // if no repo, the button will not show up
+  },
+  
   {
     id: nanoid(),
     img: 'project.jpg',
