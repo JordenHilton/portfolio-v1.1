@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'lyrical.jpg',
+    img: 'lyric.jpg',
     title: 'Lyric Word Count & Search',
     info: 'This SPA stores songs and allows the user to view word stats of each stored song.',
     info2: '',
